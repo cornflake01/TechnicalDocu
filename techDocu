@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>CSS Documentation</h1>
+        </header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Selectors">Selectors</a>
+        <a class="nav-link" href="#Box_Model">Box Model</a>
+        <a class="nav-link" href="#Flexbox">Flexbox</a>
+        <a class="nav-link" href="#Grid">Grid</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h2>Introduction to CSS</h2>
+            </header>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used for describing the presentation of a document written in HTML or XML...</p>
+            <p>CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+            <p>...</p>
+            <!-- Add more content as needed -->
+        </section>
+
+        <section class="main-section" id="Selectors">
+            <header>
+                <h2>CSS Selectors</h2>
+            </header>
+            <p>CSS selectors are patterns used to select and style elements in an HTML document...</p>
+            <p>Selectors can be based on element names, IDs, classes, attributes, and more.</p>
+            <p>...</p>
+            <!-- Add more content as needed -->
+        </section>
+
+        <section class="main-section" id="Box_Model">
+            <header>
+                <h2>CSS Box Model</h2>
+            </header>
+            <p>The CSS box model is a fundamental concept in web design...</p>
+            <p>It consists of content, padding, border, and margin.</p>
+            <p>...</p>
+            <!-- Add more content as needed -->
+        </section>
+
+        <section class="main-section" id="Flexbox">
+            <header>
+                <h2>CSS Flexbox</h2>
+            </header>
+            <p>Flexbox, or the Flexible Box Layout, is a layout model in CSS that allows the design of complex layouts and aligning items within a container...</p>
+            <p>It provides an efficient way to lay out, align, and distribute space among items in a container.</p>
+            <p>...</p>
+            <!-- Add more content as needed -->
+        </section>
+
+        <section class="main-section" id="Grid">
+            <header>
+                <h2>CSS Grid Layout</h2>
+            </header>
+            <p>CSS Grid Layout is a two-dimensional layout system for the web...</p>
+            <p>It lets you layout items into rows and columns, making it easier to design web pages with complex layouts.</p>
+            <p>...</p>
+            <!-- Add more content as needed -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
